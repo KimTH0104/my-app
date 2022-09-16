@@ -1,0 +1,45 @@
+.headerRoot{
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.headerContentWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.headerDay {
+    font-size: 30px;
+    color: #6B66FF;
+    font-weight: bold;
+}
+
+.headerLen {
+    font-size: 17px;
+    color: #9c9c9c;
+    font-weight: bold;
+}
+
+.headerMonth {
+    font-size: 20px;
+    color: #9c9c9c;
+    font-weight: bold;
+}
+
+.headerButtonWrapper {
+
+}
+
+.headerButton {
+    background-color: #f24502;
+    opacity: 0.7;
+    color: #fff;
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}

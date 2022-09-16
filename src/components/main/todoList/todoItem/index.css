@@ -1,0 +1,22 @@
+.todoItemContainer {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.todoItemCheckbox{
+    margin-right: 20px;
+}
+
+.todoItemTitle {
+    width: calc(100% - 130px);
+    color: #808080;
+}
+
+.todoItemTitle.checked {
+    text-decoration-line: line-through;
+}
+
+.todoItemExp {
+    color: #a0a0a0;
+}

@@ -1,0 +1,35 @@
+.todoListContainer {
+}
+
+.todoListAddHeader {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.todoListAddHeader > .todoListPlusIcon {
+    width: 20px;
+    margin-right: 15px;
+    color: #808080;
+    cursor: pointer;
+}
+
+.todoListAddHeader > .todoListInput {
+    border: 0;
+    font-size: 20px;
+}
+
+.todoListInput:focus{
+    outline: none;
+}
+
+.todoListInput::placeholder {
+    color: #9c9c9c;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.todoListContents {
+
+}
